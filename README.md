@@ -1,4 +1,4 @@
-[![Ritz.js](https://raw.githubusercontent.com/republic-productions/main/master/github-cover-photo.png)](https://ritzjs.com)
+[![Ritz.js](https://raw.githubusercontent.com/ritzjs/main/master/github-cover-photo.png)](https://ritzjs.com)
 
 <!-- prettier-ignore-start -->
 <p align="center">
