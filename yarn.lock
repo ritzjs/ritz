@@ -5710,7 +5710,7 @@
 
 "@zeit/next-typescript@1.1.2-main.0":
   version "1.1.2-main.0"
-  resolved "https://registry.yarnpkg.com/@zeit/next-typescript/-/next-typescript-1.1.2-main.0.tgz#0ce9a557aa33d5dcfddd3ea99ebd86456c5be4c2"
+  resolved "https://registry.yarnpkg.com/@zeit/next-typescript/-/next-typescript-1.1.2-canary.0.tgz#0ce9a557aa33d5dcfddd3ea99ebd86456c5be4c2"
   integrity sha512-DxBzRYBFG7FvoU7nyf7nBP4gr0CdM/7noMCirVbFpfWVg7csOEBIVxWcAeUmlJRaxDBPplZ9W5BvtbxL3A8DRQ==
   dependencies:
     "@babel/preset-typescript" "^7.0.0"
