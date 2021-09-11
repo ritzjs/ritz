@@ -1,4 +1,4 @@
-[![Ritz.js](https://raw.githubusercontent.com/republic-productions/main/master/github-cover-photo.png)](https://ritzjs.com)
+[![Ritz.js](https://raw.githubusercontent.com/ritzjs/main/master/github-cover-photo.png)](https://ritzjs.com)
 
 <!-- prettier-ignore-start -->
 <p align="center">
@@ -100,7 +100,7 @@ There's still a lot of work to do, so you are especially invited to join us in b
 
 Your financial contributions help ensure Ritz continues to be developed and maintained! We have monthly sponsorship options starting at $5/month.
 
-👉 View options and contribute at [GitHub Sponsors](https://github.com/sponsors/republic-productions), [PayPal](https://paypal.me/republicproductions), or [Open Collective](https://opencollective.com/ritzjs)
+👉 View options and contribute at [GitHub Sponsors](https://github.com/sponsors/republic-productions), [PayPal](https://paypal.me/republicproductions), or [Open Collective](https://opencollective.com/ritz)
 
 
 ### 🌱 Seedling Sponsors
