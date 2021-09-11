@@ -1,0 +1,29 @@
+{
+  "name": "@ritzjs/recipe-gh-action-yarn-mariadb",
+  "private": true,
+  "version": "0.34.0-main.0",
+  "description": "The Ritz Recipe for adding github actions workflow with MariaDB",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritz-js/ritz.git"
+  },
+  "keywords": [
+    "ritz",
+    "ritzjs",
+    "github",
+    "actions"
+  ],
+  "author": "Kevin Langley Jr. <me@kevinlangleyjr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritz-js/ritz/issues"
+  },
+  "homepage": "https://github.com/ritz-js/ritz#readme",
+  "dependencies": {
+    "@ritzjs/installer": "0.40.0-main.7"
+  }
+}

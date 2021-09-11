@@ -1,0 +1,16 @@
+{
+  "version": "0.40.0-main.7",
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": ["master", "main"],
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
+}

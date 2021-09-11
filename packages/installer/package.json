@@ -1,0 +1,51 @@
+{
+  "name": "@ritzjs/installer",
+  "version": "0.40.0-main.7",
+  "description": "Package installation for the Ritz CLI",
+  "homepage": "https://github.com/ritz-js/ritz#readme",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": {
+    "name": "Republic Productions",
+    "email": "republicproductions@protonmail.com",
+    "url": "https://twitter.com/ritzjs"
+  },
+  "main": "dist/ritzjs-installer.cjs.js",
+  "module": "dist/ritzjs-installer.esm.js",
+  "types": "dist/ritzjs-installer.cjs.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ritz",
+    "installer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritz-js/ritz.git"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/plugin-transform-typescript": "7.12.1",
+    "@ritzjs/config": "0.40.0-main.7",
+    "@ritzjs/display": "0.40.0-main.7",
+    "@ritzjs/generator": "0.40.0-main.7",
+    "@mrleebo/prisma-ast": "^0.2.4",
+    "@prisma/sdk": "2.19.0",
+    "@types/jscodeshift": "0.7.2",
+    "cross-spawn": "7.0.3",
+    "diff": "5.0.0",
+    "enquirer": "2.3.6",
+    "fs-extra": "^9.1.0",
+    "globby": "11.0.2",
+    "ink": "3.0.8",
+    "ink-spinner": "4.0.1",
+    "ink-testing-library": "2.1.0",
+    "jscodeshift": "0.11.0",
+    "recast": "0.20.4"
+  },
+  "gitHead": "d3b9fce0bdd251c2b1890793b0aa1cd77c1c0922"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "@ritzjs/generator",
+  "version": "0.40.0-main.7",
+  "description": "File generation for the Ritz CLI",
+  "homepage": "https://github.com/ritz-js/ritz#readme",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn build:templates --watch",
+    "buildpkg": "yarn build:templates",
+    "build:templates": "cpx --clean --include-hidden \"templates/**\" dist/templates",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": {
+    "name": "Republic Productions",
+    "email": "republicproductions@protonmail.com",
+    "url": "https://twitter.com/ritzjs"
+  },
+  "main": "dist/ritzjs-generator.cjs.js",
+  "module": "dist/ritzjs-generator.esm.js",
+  "types": "dist/ritzjs-generator.cjs.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ritz",
+    "generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritz-js/ritz.git"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/plugin-transform-typescript": "7.12.1",
+    "@ritzjs/display": "0.40.0-main.7",
+    "@ritzjs/server": "0.40.0-main.7",
+    "@mrleebo/prisma-ast": "^0.2.4",
+    "@types/jscodeshift": "0.7.2",
+    "chalk": "^4.1.0",
+    "cross-spawn": "7.0.3",
+    "diff": "5.0.0",
+    "enquirer": "2.3.6",
+    "fs-extra": "^9.1.0",
+    "got": "^11.8.1",
+    "jscodeshift": "0.11.0",
+    "mem-fs": "1.2.0",
+    "mem-fs-editor": "8.0.0",
+    "npm-which": "^3.0.1",
+    "pluralize": "^8.0.0",
+    "recast": "0.20.4",
+    "username": "^5.1.0",
+    "vinyl": "2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "gitHead": "d3b9fce0bdd251c2b1890793b0aa1cd77c1c0922"
+}

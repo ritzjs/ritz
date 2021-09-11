@@ -1,0 +1,5 @@
+{
+  "main": "dist/ritz-custom-server.cjs.js",
+  "module": "dist/ritz-custom-server.esm.js",
+  "types": "dist/ritz-custom-server.cjs.d.ts"
+}

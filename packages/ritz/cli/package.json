@@ -1,0 +1,4 @@
+{
+  "main": "dist/ritz-cli.cjs.js",
+  "module": "dist/ritz-cli.esm.js"
+}

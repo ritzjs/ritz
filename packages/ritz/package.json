@@ -1,0 +1,92 @@
+{
+  "name": "ritz",
+  "description": "Ritz is a Rails-like framework for monolithic, full-stack React apps — built on Next.js",
+  "version": "0.40.0-main.7",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "author": {
+    "name": "Republic Productions",
+    "email": "republicproductions@protonmail.com",
+    "url": "https://twitter.com/ritzjs"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts",
+      "cli.ts",
+      "custom-server.ts"
+    ]
+  },
+  "bin": {
+    "ritz": "./bin/ritz"
+  },
+  "main": "dist/ritz.cjs.js",
+  "module": "dist/ritz.esm.js",
+  "types": "dist/ritz.cjs.d.ts",
+  "files": [
+    "dist",
+    "cli",
+    "scripts",
+    "custom-server",
+    "jest-preset.js",
+    "jest-preset",
+    "babel.js"
+  ],
+  "husky": {
+    "hooks": {}
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritz-js/ritz"
+  },
+  "dependencies": {
+    "@ritzjs/babel-preset": "0.40.0-main.7",
+    "@ritzjs/cli": "0.40.0-main.7",
+    "@ritzjs/config": "0.40.0-main.7",
+    "@ritzjs/core": "0.40.0-main.7",
+    "@ritzjs/display": "0.40.0-main.7",
+    "@ritzjs/generator": "0.40.0-main.7",
+    "@ritzjs/server": "0.40.0-main.7",
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "@testing-library/react-hooks": "^4.0.1",
+    "@types/jest": "26.0.20",
+    "chalk": "^4.1.0",
+    "cross-spawn": "7.0.3",
+    "debug": "4.3.1",
+    "envinfo": "^7.7.3",
+    "eslint-config-ritz": "0.40.0-main.7",
+    "jest": "^26.6.3",
+    "jest-watch-typeahead": "^0.6.1",
+    "minimist": "1.2.5",
+    "os-name": "^4.0.0",
+    "pkg-dir": "^5.0.0",
+    "react-test-renderer": "17.0.1",
+    "resolve-from": "^5.0.0",
+    "symlink-dir": "4.1.0",
+    "ts-jest": "26.5.0"
+  },
+  "keywords": [
+    "ritz",
+    "ritzjs",
+    "ritz.js",
+    "next",
+    "next.js",
+    "react",
+    "framework",
+    "fullstack",
+    "node"
+  ],
+  "gitHead": "d3b9fce0bdd251c2b1890793b0aa1cd77c1c0922"
+}

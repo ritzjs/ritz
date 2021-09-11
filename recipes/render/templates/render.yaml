@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ritzapp
+    env: node
+    plan: starter
+    buildCommand: yarn --frozen-lockfile --prod=false && ritz build && ritz prisma migrate deploy
+    startCommand: ritz start
+    envVars:
+      # ⚠️  You must set SESSION_SECRET_KEY env var through the UI.
+      # Add this env name, then a "generate" button will appear in the value box
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ritzapp-db
+          property: connectionString
+      - key: SESSION_SECRET_KEY
+        generateValue: true
+
+databases:
+  - name: ritzapp-db
+    plan: starter
